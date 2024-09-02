@@ -1,9 +1,9 @@
 "use strict";
-let score = undefined
-console.log(typeof(score))
-let conversion = Number(score)
-console.log(typeof(conversion));
-console.log(score,conversion);
+// let score = undefined
+// console.log(typeof(score))
+// let conversion = Number(score)
+// console.log(typeof(conversion));
+// console.log(score,conversion);
 
 // "33" => 33
 // "Nikhil"/"33abc" => NaN
@@ -29,4 +29,18 @@ console.log(score,conversion);
 // console.log(typeof(constring));
 // console.log(num,constring);
 
+// ************* Operations ************ //
+// let num = 3
+// let negnum = -num
+// console.log(negnum);
+
+let Name = "Nikhil"
+let SurName = "Maurya"
+let FullName = Name + SurName
+console.log(FullName);
+
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
 
