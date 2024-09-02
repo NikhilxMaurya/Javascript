@@ -34,13 +34,19 @@
 // let negnum = -num
 // console.log(negnum);
 
-let Name = "Nikhil"
-let SurName = "Maurya"
-let FullName = Name + SurName
-console.log(FullName);
+// let Name = "Nikhil"
+// let SurName = "Maurya"
+// let FullName = Name + SurName
+// console.log(FullName);
 
-console.log(1 + "2");
-console.log("1" + 2);
-console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+// console.log(1 + "2");
+// console.log("1" + 2);
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
 
+let x = 3
+const y = ++x
+console.log(x,y);
+let a = 3
+const b = a++
+console.log(a,b);
